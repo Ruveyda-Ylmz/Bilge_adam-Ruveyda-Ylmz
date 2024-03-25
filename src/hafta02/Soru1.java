@@ -8,14 +8,18 @@ public class Soru1 {
         // bir fazlasının toplamını ekrana yazdıran algoritama.
 
         int sayi ,
-            toplam,
+            toplam=0,
             deger;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("lütfen bir sayi giriniz: ");
         sayi = scanner.nextInt();
 
-     //   for (int i=1;,i<=sayi ; i++){
+        for (int i=1 ;i<=sayi;i++){
+            toplam=toplam+(i+1);
+        }
+        System.out.println("toplam: "+toplam);
+
 
         }
     }
