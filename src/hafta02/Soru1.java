@@ -18,9 +18,4 @@ public class Soru1 {
      //   for (int i=1;,i<=sayi ; i++){
 
         }
-
-
-
-
     }
-}
