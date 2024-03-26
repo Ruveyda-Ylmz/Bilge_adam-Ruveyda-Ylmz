@@ -3,8 +3,9 @@ package Week03.methods.staticmethods;
 public class SaticVsNonStatic {
     public static void main(String[] args) {
 
+
     }
-    public int addNumbers(int a,int b){
+    public int addNumbers(int a,int b){ //non-static
         int sum =a+b;
         return sum;
     }
