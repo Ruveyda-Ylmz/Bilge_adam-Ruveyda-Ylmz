@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class MethodQuestion {
     public static void main(String[] args) {
+
         MethodQuestion methodQuestion = new MethodQuestion();
         Scanner scanner = new Scanner(System.in);
         System.out.println("lütfen 1.sayıyı girin : ");
