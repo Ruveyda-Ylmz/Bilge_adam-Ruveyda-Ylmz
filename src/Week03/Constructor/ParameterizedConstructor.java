@@ -1,6 +1,8 @@
 package Week03.Constructor;
 
 public class ParameterizedConstructor {
+    //paremetreli constructor
+
     //Ad, soyad, yaş ve cinsiyet fieldlarını belirleyelim. Sonrasında bu sınıfın 2 adet nesnesini
 //oluşturalım. Bu nesnelerin yaş ve cinsiyet değerleri, constructor parametresinden, oluşturma
 //anında verilsin. Diğer 2 değeri elle girelim.
@@ -20,9 +22,11 @@ public class ParameterizedConstructor {
 //    }
 
         public static void main(String[] args) {
+
             ParameterizedConstructor obj1 = new ParameterizedConstructor(28,"Erkek");
             obj1.name = "Alperen";
             obj1.lastname = "İkinci";
+
             System.out.println(obj1.name +
                     " "+ obj1.lastname+
                     " "+ obj1.gender+

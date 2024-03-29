@@ -5,8 +5,10 @@ public class ConstructorOverloading {
     String language;
 
 
+    //constructor
     ConstructorOverloading(String country, String language){
-        this.country=country;
+
+        this.country=country; //this çağırma için kullanılır
         this.language=language;
 
     }
@@ -19,6 +21,7 @@ public class ConstructorOverloading {
     public static void main(String[] args) {
         //no-args-constructor. Şu an herhangi bir constructor tanımlanmadığı için default constructor
         //olarak bana no-args-constructor Java tarafından getiriliyor.
+
         ConstructorOverloading obj1 = new ConstructorOverloading();
         obj1.country= "Turkey";
         obj1.language= "Turkish";
