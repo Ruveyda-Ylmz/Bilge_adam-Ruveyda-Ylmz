@@ -5,7 +5,7 @@ public class Vehicle {
     String model;
     int year;
 
-    void start(){ //araç çalıştırma methodu
+    void start(){
         System.out.println("Vehicle is starting");
     }
 

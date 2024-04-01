@@ -1,6 +1,6 @@
 package Week03.oop.principsles.inheritance.odev01;
 
-public class Truck extends Vehicle { //kamyon
+public class Truck extends Vehicle {
     double cargoCapacity;
 
 
