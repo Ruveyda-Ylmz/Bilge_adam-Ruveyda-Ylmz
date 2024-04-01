@@ -2,18 +2,17 @@ package Week03.oop.principsles.inheritance.ornek02;
 
 public class Circle extends Shape {
 
-    double radius;
+    private double radius;
 
 
-   // public Circle(double radius) {
-    //    this.radius = radius;
-   // }
-
-    public  Circle(String color,double radius){
-        super(color);
+    public Circle(double radius) {
         this.radius = radius;
     }
 
+    public  Circle(String color,double radius){
+       super(color);
+       this.radius = radius;
+   }
 
 
     @Override
