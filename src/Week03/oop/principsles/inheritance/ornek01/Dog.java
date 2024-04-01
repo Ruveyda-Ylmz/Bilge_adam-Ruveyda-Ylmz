@@ -1,4 +1,4 @@
-package Week03.oop.principsles.inheritance;
+package Week03.oop.principsles.inheritance.ornek01;
 public class Dog extends Animal{
         public void display(){
 
