@@ -16,7 +16,7 @@ public class AritmetikOperator {
 
         //ekle - cikar
         System.out.println("a=" + number1 + " " + "b=" + number2 + " " + "c=" + number3);
-        System.out.println("a + b = " + (number1+number2));
+        System.out.println("a + b = " + (number1+number2)); //sout+enter
         System.out.println("a - c = " + (number1-number3));
         System.out.println("a * b = " + (number1*number2));
         System.out.println("a / 5 = " + (number1 / 5));
