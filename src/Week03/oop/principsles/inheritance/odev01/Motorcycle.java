@@ -1,8 +1,8 @@
 package Week03.oop.principsles.inheritance.odev01;
 
-public class Motorcycle extends Vehicle { //Motosiklet
+public class Motorcycle extends Vehicle {
 
-    boolean hasSidecar; //Sepeti var
+    boolean hasSidecar;
 
 
     @Override

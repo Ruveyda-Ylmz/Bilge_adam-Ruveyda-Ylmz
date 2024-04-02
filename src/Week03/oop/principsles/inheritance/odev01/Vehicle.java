@@ -1,15 +1,15 @@
 package Week03.oop.principsles.inheritance.odev01;
 
-public class Vehicle { //araç
-    String brand; //marka
+public class Vehicle {
+    String brand;
     String model;
     int year;
 
-    void start(){ //araç çalıştırma methodu
-        System.out.println("Vehicle is starting"); //Araç çalıştırılıyor
+    void start(){
+        System.out.println("Vehicle is starting");
     }
 
     void stop(){
-        System.out.println("Vehicle is stopping"); //Araç duruyor
+        System.out.println("Vehicle is stopping");
     }
 }
