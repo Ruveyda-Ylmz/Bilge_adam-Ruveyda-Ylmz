@@ -1,9 +1,9 @@
-package Week04.collections.list;
+package Week04.collections.list.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArraList03 {
+public class ArrayList03 {
     public static void main(String[] args) {
         List<String> nameList = new ArrayList<>();
         nameList.add("java");
