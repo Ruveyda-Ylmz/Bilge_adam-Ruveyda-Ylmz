@@ -1,4 +1,4 @@
-package Week04.collections.map;
+package Week04.collections.map.hashmap;
 
 import java.util.HashMap;
 import java.util.TreeMap;
