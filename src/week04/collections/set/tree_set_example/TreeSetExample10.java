@@ -17,7 +17,7 @@ public class TreeSetExample10 {
             System.out.println("TreeSet2: " + primeNumbers);
 
             // Check if primeNumbers is subset of numbers
-            boolean result = numbers.containsAll(primeNumbers);
+            boolean result = numbers.containsAll(primeNumbers); //bu sayıları içeriyor mu sorunu soruyor ,evet ise true ,hayır ise false dönecek
             System.out.println("Is TreeSet2 subset of TreeSet1? " + result);
         }
 }

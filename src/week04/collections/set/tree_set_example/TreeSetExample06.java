@@ -12,7 +12,7 @@ public class TreeSetExample06 {
         System.out.println("TreeSet: " + numbers);
 
         // Using subSet() with default boolean value
-        System.out.println("Using subSet without boolean value: " + numbers.subSet(4, 6));
+        System.out.println("Using subSet without boolean value: " + numbers.subSet(4, 6)); //bir aralık set eder, 4 dahil 6 dahil değil
 
         // Using subSet() with specified boolean value
         System.out.println("Using subSet with boolean value: " + numbers.subSet(4, false, 6, true));

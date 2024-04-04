@@ -23,7 +23,8 @@ public class TreeSetExample02 {
             System.out.println("Using ceiling: " + numbers.ceiling(3));
 
             // Using floor()
-            System.out.println("Using floor: " + numbers.floor(3));
+            System.out.println("Using floor: " + numbers.floor(3)); //taban sayıyı getirmeye çalılır
+            //3 den önce en büyük çıktıyı verir
 
         }
 }

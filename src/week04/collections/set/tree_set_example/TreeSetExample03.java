@@ -12,10 +12,10 @@ public class TreeSetExample03 {
             System.out.println("TreeSet: " + numbers);
 
             // Using pollFirst()
-            System.out.println("Removed First Element: " + numbers.pollFirst());
+            System.out.println("Removed First Element: " + numbers.pollFirst()); //ilk öğeyi siler
 
             // Using pollLast()
-            System.out.println("Removed Last Element: " + numbers.pollLast());
+            System.out.println("Removed Last Element: " + numbers.pollLast()); //son öge yi siler
 
             System.out.println("New TreeSet: " + numbers);
         }

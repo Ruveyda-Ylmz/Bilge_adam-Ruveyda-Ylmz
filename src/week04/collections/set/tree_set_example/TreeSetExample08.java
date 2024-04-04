@@ -16,7 +16,7 @@ public class TreeSetExample08 {
             System.out.println("TreeSet2: " + numbers);
 
             // Intersection of two sets
-            numbers.retainAll(evenNumbers);
+            numbers.retainAll(evenNumbers); //setlerin kesişimi
             System.out.println("Intersection is: " + numbers);
         }
 }

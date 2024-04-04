@@ -17,7 +17,7 @@ public class TreeSetExample09 {
             System.out.println("TreeSet2: " + numbers);
 
             // Difference between two sets
-            numbers.removeAll(evenNumbers);
+            numbers.removeAll(evenNumbers); //iki dizi arasında ki ortak olmayan
             System.out.println("Difference is: " + numbers);
         }
 }

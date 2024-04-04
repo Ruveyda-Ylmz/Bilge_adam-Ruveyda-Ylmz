@@ -12,9 +12,9 @@ public class TreeSetExample04 {
             System.out.println("TreeSet: " + numbers);
 
             // Using headSet() with default boolean value
-            System.out.println("Using headSet without boolean value: " + numbers.headSet(5));
+            System.out.println("Using headSet without boolean value: " + numbers.headSet(5)); //5 e kadar olanı getir
 
             // Using headSet() with specified boolean value
-            System.out.println("Using headSet with boolean value: " + numbers.headSet(5, true));
+            System.out.println("Using headSet with boolean value: " + numbers.headSet(5, true)); //5 den sonrasını getirir 5 dahil değil
         }
 }

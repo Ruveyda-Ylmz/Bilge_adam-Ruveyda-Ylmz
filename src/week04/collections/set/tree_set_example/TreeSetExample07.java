@@ -16,7 +16,7 @@ public class TreeSetExample07 {
             System.out.println("TreeSet2: " + numbers);
 
             // Union of two sets
-            numbers.addAll(evenNumbers);
+            numbers.addAll(evenNumbers); //setleri birleştirme
             System.out.println("Union is: " + numbers);
 
         }

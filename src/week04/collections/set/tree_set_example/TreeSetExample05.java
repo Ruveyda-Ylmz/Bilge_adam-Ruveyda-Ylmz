@@ -9,10 +9,10 @@ public class TreeSetExample05 {
             numbers.add(5);
             numbers.add(4);
             numbers.add(6);
-            System.out.println("TreeSet: " + numbers);
+            System.out.println("TreeSet: " + numbers); //kuyruk
 
             // Using tailSet() with default boolean value
-            System.out.println("Using tailSet without boolean value: " + numbers.tailSet(4));
+            System.out.println("Using tailSet without boolean value: " + numbers.tailSet(4)); // 4 dahil sonra ki değerleri alır
 
             // Using tailSet() with specified boolean value
             System.out.println("Using tailSet with boolean value: " + numbers.tailSet(4, false));
