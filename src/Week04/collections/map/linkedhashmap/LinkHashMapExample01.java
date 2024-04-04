@@ -16,6 +16,6 @@ public class LinkHashMapExample01 {
         nameMap.put(null,"b");
         nameMap.put(null,"c");  //key de null olma durumunda son değer sadece yazar (çünkü key çiftlenemez)
         System.out.println("LinkedHashMap : "+nameMap);
-        System.out.println("LinkedHashMap : "+nameMap);//-
+
     }
 }

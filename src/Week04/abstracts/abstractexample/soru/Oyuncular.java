@@ -8,4 +8,4 @@ public abstract class Oyuncular{
     public abstract void atak();
     public abstract  void skor();
 
-} //+
+}

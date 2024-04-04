@@ -9,7 +9,7 @@ public class test {
         Numbers.put("c",2);
         Numbers.put("C++",3);
         System.out.println(Numbers);
-        System.out.println(Numbers.firstKey()); //+
+        System.out.println(Numbers.firstKey());
 
 
     }

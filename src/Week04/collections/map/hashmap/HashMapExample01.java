@@ -13,6 +13,6 @@ public class HashMapExample01 {
         languageMap.put("java",8);
         languageMap.put("Python",1);
         languageMap.put("JS",3);
-        System.out.println("HashMap: "+languageMap); //+
+        System.out.println("HashMap: "+languageMap);
     }
 }

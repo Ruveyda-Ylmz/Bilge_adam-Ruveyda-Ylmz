@@ -50,7 +50,7 @@ public class TreeMapExample01 {
 
         System.out.println("FirstKey entry : "+numberMap.firstKey());
         System.out.println("LaskKey entry : "+numberMap.lastKey());
-        System.out.println("LaskKey entry : "+numberMap.lastKey());//-
+
 
 
 
