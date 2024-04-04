@@ -38,5 +38,6 @@ public class TreeMapExample02 {
         Map.Entry<Integer,String>removedEntry = numberMap.pollFirstEntry();
         System.out.println("\nafter pollFirstEntry() :  "+numberMap);
         System.out.println("removed entry : "+removedEntry);
+        System.out.println("removed entry : "+removedEntry); //-
     }
 }

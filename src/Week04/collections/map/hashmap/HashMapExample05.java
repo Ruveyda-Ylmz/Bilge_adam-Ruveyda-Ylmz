@@ -16,6 +16,6 @@ public class HashMapExample05 {
 
         //TreeMap üzerinden HashMap oluşturmak.
         HashMap<String,Integer> numberHashMap = new HashMap<>(evenNumbers);
-        System.out.println("HashMap: "+numberHashMap);
+        System.out.println("HashMap: "+numberHashMap); //+
     }
 }

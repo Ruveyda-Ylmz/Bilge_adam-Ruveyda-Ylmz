@@ -17,7 +17,7 @@ public class HashMapExample04 {
         System.out.println("ıteration through keys");
         for (Integer key : languageHashMap.keySet()){
             System.out.print(key);
-            System.out.print(",");
+            System.out.print(","); //+
         }
 
         //değerler üzerinden iterasyon

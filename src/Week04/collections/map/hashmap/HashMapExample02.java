@@ -64,7 +64,7 @@ public class HashMapExample02 {
         //bir hashmap den bir key/value çiftini kaldırmak/silmek
         Boolean isDelete = languageHashMap.remove(3,"JS");
         System.out.println("is delete : "+isDelete);
-        System.out.println("update hashmap: "+languageHashMap);
+        System.out.println("update hashmap: "+languageHashMap); //+
     }
 
 }

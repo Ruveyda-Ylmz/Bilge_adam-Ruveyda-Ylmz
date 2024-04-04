@@ -15,5 +15,5 @@ public class Oyuncu2 extends Oyuncular{
     @Override
     public void skor() {
 
-    }
+    } //+
 }

@@ -12,7 +12,7 @@ public class HashMapExample03 {
         hashMap.put("İstanbul",List.of("beyoğlu","üsküdar","beylikdüzü"));
         Map<String,Map<String,List<String>>> nestedHashMap =new HashMap<>();
         nestedHashMap.put("Türkiye",hashMap);
-        System.out.println(nestedHashMap);
+        System.out.println(nestedHashMap); //+
 
 
 
