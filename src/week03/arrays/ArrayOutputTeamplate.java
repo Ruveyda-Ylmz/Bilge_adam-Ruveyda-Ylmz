@@ -8,7 +8,6 @@ public class ArrayOutputTeamplate {
         System.out.print("[");
         for (int number: numberArr){
             if (sayac<numberArr.length-1){
-
               System.out.print(number+",");
             }else
             {

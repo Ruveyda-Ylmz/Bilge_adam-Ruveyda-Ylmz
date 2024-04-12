@@ -8,7 +8,7 @@ public class ScannerNextProblem {
         Scanner scanner = new Scanner(System.in);
         System.out.println("yasini gir: ");
         int age = scanner.nextInt();
-        scanner.nextLine();
+        scanner.nextLine(); //elden değer art arda girerken hata vermeyi engeller
 
         System.out.print("adını gir: ");
         String name =scanner.nextLine();

@@ -1,0 +1,4 @@
+
+ArrayIndexOutOfBoundsException ->array taşma hatası
+ArithmeticException e -> 5/0 gibi aritmetik işlem hatası
+NullPointerException e ->boş(null) işaret hatası

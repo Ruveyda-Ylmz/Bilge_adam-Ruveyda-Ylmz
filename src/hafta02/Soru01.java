@@ -3,6 +3,7 @@ package hafta02;
 import java.util.Scanner;
 
 public class Soru01 {
+    //girilen sayının tam bölenlerinin sayısını veren program
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

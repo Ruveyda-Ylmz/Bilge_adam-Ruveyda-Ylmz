@@ -7,5 +7,8 @@ public class MantiksalOperatorlar {
         int pasword=123456789;
 
         System.out.println(username.equals("hasankadirdemircan"));
+        System.out.println(username.toUpperCase());
+        System.out.println(username!=("hasankadirdemircan"));
+
     }
 }

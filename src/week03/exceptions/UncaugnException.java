@@ -1,12 +1,12 @@
 package week03.exceptions;
 
-public class UncaugnException {
+public class UncaugnException { //UncaughtException(Yakalanmamış istisna)
     public static void main(String[] args) {
         UncaugnException uncaugnException = new UncaugnException();
         String name =null;
         uncaugnException.method1(name);
     }
-    public void method1(String name){
+    public void method1(String name){ //paremetreli method
         System.out.println("method1");
         try{
             method2(name);
