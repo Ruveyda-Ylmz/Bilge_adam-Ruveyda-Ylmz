@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class HarfIndexBulucu {
+public class Soru01 {
     public static void main(String[] args) {
 
         List<String> numberList =new ArrayList<>();
