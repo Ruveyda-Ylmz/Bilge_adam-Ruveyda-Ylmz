@@ -1,0 +1,6 @@
+Taş-kağıt-makas oyunu yazalım. Kullanıcı dışarıdan bir seçim girsin ( Taş , Kağıt, Makas ).
+Bilgisayar da rastgele bir seçim üretsin. Ondan sonra kim kazanıyor ise onun skoru artsın. Oyun
+kullanıcı devam etmek istediği sürece devam edebilsin. Devam etme sorusu şu sekilde olabilir.
+Oynamaya devam etmek istiyor musunuz? ( E / H) → ‘E’ girildiği sürece oyun devam eder. ‘E ’
+dışında herhangi bir girdide oyun kapanır. Oyun kapanırken final skoru ve kimin kazandırdığını
+da yazdırsın.

@@ -1,0 +1,3 @@
+int [] sayilar={1,4,5,6,1,1,4,8};
+dizi içerisinde 1 ve 4 sayılarının kaç kere geçtiğini yazdıralım. 1 sayısının adeti 4
+sayısının adetinden fazla ise true değilse false yazdıralım.

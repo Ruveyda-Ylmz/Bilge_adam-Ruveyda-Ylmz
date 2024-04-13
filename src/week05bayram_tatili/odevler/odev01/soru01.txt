@@ -1,0 +1,18 @@
+1. Harf Saydırma
+○ Dışarıdan bir kelime ve bir harf girilsin eğer kelimenin içinde o harf var ise hangi
+indexlerde olduğunu ve en sonda toplam kaç adet olduğunu yazdırsın.
+ÖR; “Alperen”, “e” Konsol çıktısı ⇒
+■ Girdiğiniz ‘e’ harfi 3. indexte bulunmaktadır.
+■ Girdiğiniz ‘e’ harfi 5. indexte bulunmaktadır.
+Son Konsol Çıktısı;
+○ Girdiğiniz ‘e’ harfi verdiğiniz kelimenin içerisinde 2 kere geçmektedir.
+○ Girdiğiniz harf verdiğiniz kelimede bulunmamaktadır.
+2. Harf Değiştirme
+○ Dışarıdan bir kelime ve bir harf girilsin. Eğer kelimenin içinde o harf var ise yeni
+bir harf girelim ve kelimeyi değiştirelim.
+ÖR; “Araba” “a”,”e” Konsol çıktısı ⇒
+■ Eski Kelime ‘Araba’ yeni kelime ⇒ ‘Arebe’
+3. Palindrom Kontrolü
+○ Dışarıdan bir kelime girelim. Kelime palindrom ise : “Girdiğiniz ‘x’ kelimesi
+palindromdur.” değilse “Girdiğiniz ‘x’ kelimesi palindrom değildir. yazdırsın.
+0. Çıkış
