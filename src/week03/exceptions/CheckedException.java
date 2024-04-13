@@ -3,8 +3,9 @@ package week03.exceptions;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class CheckedException { //Kontrol Edilen İstisna
+public class CheckedException { //Kontrol Edilen İstisna (derleme hatası)
     public static void main(String[] args) {
+
 
         try { //try (denemek)
             FileWriter fw =new FileWriter("file.txt");

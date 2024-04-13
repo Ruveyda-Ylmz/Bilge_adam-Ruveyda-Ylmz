@@ -54,7 +54,11 @@ public class PrimeNumberCalculator {
 
 
     //constructor
-    PrimeNumberCalculator(){ //parametre/argüman kısmıburası,buraya string  isim,int sayi gibi değerler girilir)
+    PrimeNumberCalculator(){ //() -> parametre/argüman kısmı burası,
+                            // buraya string  isim,int sayi gibi değerler girilir)
+
+        //Herhangi bir parametre girilmeyen constructorlara
+        // NoArgsConstructor(Argümansız/Parametresiz) constructor denir.
 
     }
 

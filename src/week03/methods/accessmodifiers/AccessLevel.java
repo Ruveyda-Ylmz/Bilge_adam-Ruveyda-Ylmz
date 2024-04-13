@@ -1,16 +1,18 @@
-package week03.methods.accessmodifiers;
+package week03.methods.accessmodifiers; //erişim değiştiricileri
 
-public class AccessLevel {
+public class AccessLevel { //erişim seviyesi
+
+    //methodlar
     public String publicString(){
         return "public string";
     }
     private  String privateString(){
         return "private string";
     }
-    protected  String protectedString() {
+    protected static String protectedString() {
         return "protected String";
     }
-    String defaultString() {
+    static String defaultString() {
         return "default String";
     }
 

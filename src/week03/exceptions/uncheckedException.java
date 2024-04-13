@@ -23,9 +23,13 @@ public class uncheckedException {
 
         //sorgu hata vermez
         if ("ruveyda".equals(name)){
-            System.out.println("name : ruveyda");
+            System.out.println("ruveyda\".equals(name) -> hata vermez");
         }
         //null değerler sadece objelere verilebilir
+
+//        if (name.equals("ruveyda")){
+//            System.out.println("name.equals(ruveyda) -> hata verir");
+//        }
     }
 
 }

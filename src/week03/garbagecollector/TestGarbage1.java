@@ -7,6 +7,7 @@ public class TestGarbage1 {
     eğer new ile tanımlanmadı ise diğer objeler finalize() ile silinir */
 
     public void finalize() {
+
         System.out.println("object is garbage collected");
     }
 

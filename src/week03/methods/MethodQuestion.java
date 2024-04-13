@@ -3,6 +3,11 @@ package week03.methods;
 import java.util.Scanner;
 
 public class MethodQuestion {
+    /*
+    Girilen bir tam sayının karesini alan bir method olusturalim. Bu method non-static olsun.
+    Daha sonra kullanıcıdan 2 adet sayi isteyelim. Bu sayilardan kucuk olanindan baslayarak, buyuk olan
+    sayiya kadar aradaki butun sayilarin karesini metot yardimiyla alalim ve yazdiralim.
+ */
     public static void main(String[] args) {
 
         MethodQuestion methodQuestion = new MethodQuestion();
