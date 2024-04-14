@@ -30,6 +30,7 @@ public class Person {
     }
 
 
+
     //sağ tıkla "Generate"ye tıkla "getter and setter" a tıkla istediğin değişkenlerin get ve set değerleri otomatik tanımlansın
     //get->ekrana basmada kullanılır
     //set ->değer atamda kullanılır
@@ -38,6 +39,7 @@ public class Person {
 
 
     public void setTcKimlik(String tcKimlik) {  //get kısmını sildik çünkü tc ekrana basılmaz özeldir
+
         this.tcKimlik = tcKimlik;
     }
 

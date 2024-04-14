@@ -1,3 +1,5 @@
+
+
  Bir kullanıcı kayıt sistemi oluşturacağız.
 İhtiyacımız olan sınıflar;
 ○ Kullanıcı
@@ -9,4 +11,5 @@
 ○ Main
 ■ Uygulama sınıfının bir nesnesini oluşturup bu sınıfta çalıştıralım ve
 uygulamamız ayağa kalksın.
+
 Bu soruda Encapsulation mantığına uygun kod yazalım.
