@@ -7,13 +7,16 @@ Bir hesap makinesi uygulaması yazacağız.
 0- Çıkış
 4 işlem yaparken kullanıcı "=" girene kadar işlem gerçekleştirilmeye devam edecek.
 "=" yazıldığı zaman sonucu gösterip ana menüye dönecek.
+
 Sınıflar;
 HesapMakinesi
 Uygulama
 SayiKontrol (Gerekli Açıklamalar En Altta)
+
 Uygulama sınıfımız her şeyin bir arada toplandığı sınıfımız olacak.
 HesapMakinesi sınıfımız Uygulama sınıfımızı çalıştıracağımız main sınıfımız olacak.
 Bunu gerçekleştirebilmek için aşağıdaki metotlara ihtiyacımız olacak;
+
 Uygulama Sınıfı İçin;
 uygulama();
 menu();
@@ -22,6 +25,7 @@ toplama();
 cikarma();
 carpma();
 bolme();
+
 SayiKontrol Sınıfı İçin;
 SayiKontrol sınıfımız, girilen string'in nümerik bir değer olup olmadığını kontrol edecek kontrol
 sınıfımız olacak.
