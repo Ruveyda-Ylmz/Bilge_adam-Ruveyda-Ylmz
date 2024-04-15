@@ -3,7 +3,7 @@ package week04.enums;
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class Main { //kapsülleme
     public static void main(String[] args) {
         System.out.println(Size.SMALL);
         System.out.println(Size.MEDIUM);
