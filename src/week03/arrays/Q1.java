@@ -8,7 +8,7 @@ public class Q1 {
         //kullanıcı 0 girene kadar aldığı tüm sayıların toplayan ve ekran basan program.
 
         int sayi ,
-        toplam=0;
+            toplam=0;
 
         Scanner scanner = new Scanner(System.in);
 

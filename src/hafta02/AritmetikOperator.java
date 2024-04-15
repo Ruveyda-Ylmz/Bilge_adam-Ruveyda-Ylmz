@@ -21,6 +21,7 @@ public class AritmetikOperator {
         System.out.println("a * b = " + (number1*number2));
         System.out.println("a / 5 = " + (number1 / 5));
 
+
         //mod alma
         System.out.println("c % b= " + (number3%number2));
 

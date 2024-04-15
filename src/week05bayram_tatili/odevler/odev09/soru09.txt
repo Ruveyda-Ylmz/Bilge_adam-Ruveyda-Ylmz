@@ -1,0 +1,28 @@
+Calisan isimli bir superclass oluşturup. Bu sınıftan faydalanacak Muhendis ve
+OfisCalisani sınıfları oluşturacağız.
+● Her çalışanın aşağıdaki field’ları olacak
+○ isim
+○ soyisim
+○ unvan
+○ maas
+
+● Çalışanların ünvanları aldıkları maaşa göre değişecek.
+○ Mühendisler için;
+■ 10000 - 12000 arasında maaş alanların ünvanı : “Mühendis”
+■ 12000 - 17000 arasında ise ünvanı : “Kıdemli Mühendis”
+■ 17000’den yuksek ise ünvanı : “Uzman Mühendis”
+■ 10000’den küçük ise ünvanı : “Stajyer Mühendis”
+
+○ Ofis Çalışanları için;
+■ 8000 - 12000 arasında maaş alanların ünvanı : “Çalışan”
+■ 12000’den yüksek ise ünvanı : “Kıdemli Çalışan”
+■ 8000’den küçük ise ünvanı : “Stajyer”
+
+● Bütün çalışanlara zam yapılabilecek. Dolayısıyla bütün çalışanlar bir zamYap()
+metoduna sahip olmalıdır. ( Burada kalıtımı ve diğer öğrendiklerimizi göz önüne alarak
+metodun nerede tanımlanması gerektiğini bulabilirsiniz ).
+● Mühendisler ve Ofis çalışanları maaş zammını aynı şekilde almayacaklar.
+○ Mühendisler için:Maaş+(Maaş*Zam Oranı) + 250TL
+○ Ofis Çalışanları için : Maaş+(Maaş*Zam Oranı)
+Kurguyu tamamladıktan sonra bütün maaş senaryolarını, Zam senaryolarını test edelim.
+UNUTMAYIN! : Bir çalışan zam aldığında ünvanı değişebilir

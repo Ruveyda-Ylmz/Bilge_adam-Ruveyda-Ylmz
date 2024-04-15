@@ -11,9 +11,10 @@ public class NoArgsConstructor {
 
     String name;
     String lastname;
-    String county;
+    String county; //ilçe
 
     private NoArgsConstructor() { //parametresiz constructor
+
         county = "Turkey";
     }
 

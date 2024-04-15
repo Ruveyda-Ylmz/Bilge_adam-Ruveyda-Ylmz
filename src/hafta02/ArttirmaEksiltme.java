@@ -23,4 +23,5 @@ public class ArttirmaEksiltme {
         //mantıksal değildir operatoru
         System.out.println("değil (!): "+ !condition);
     }
+
 }

@@ -1,0 +1,3 @@
+int[] sayilar = { 2, -256, 2, 1258, 2, 2 };
+bir dizide ard arda gelen 2 index deki sayı değeri 2 ise true yazdırıp döngüyü sonlandıralım.
+Arka arkaya 2 sayısı gelmiyor ise false yazdıralım.

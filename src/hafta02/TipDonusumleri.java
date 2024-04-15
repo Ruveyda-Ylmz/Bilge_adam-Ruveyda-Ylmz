@@ -20,7 +20,7 @@ public class TipDonusumleri {
         System.out.println("\n");
 
         //long 8 byte (9.0) , int 4 byte (9)
-        long longDollar = 123456789101112L;
+        long longDollar = 123456789111111111L;
         int intDollar2 = (int)longDollar;
 
         System.out.println(longDollar);

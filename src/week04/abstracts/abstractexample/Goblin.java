@@ -8,6 +8,8 @@ public class Goblin extends Enemy { //goblin düşmanı
     }
     @Override
     public void attack() {
+
         System.out.println("Goblin attacks with "+damage+" damage ");
     }
+
 }

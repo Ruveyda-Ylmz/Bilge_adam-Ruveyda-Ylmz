@@ -1,21 +1,21 @@
 package week03.Constructor;
 
 public class ConstructorOverloading {
-    String country;
-    String language;
+    //constructor (yapıcı)
+    String country; //ülke
+    String language; //dil
 
+    ConstructorOverloading(String country, String language){ //paremetreli constructor
 
-    //constructor
-    ConstructorOverloading(String country, String language){
-
-        this.country=country; //this çağırma için kullanılır
-        this.language=language;
+        this.country = country; //this çağırma için kullanılır
+        this.language = language;
 
     }
     ConstructorOverloading(String country){//Parameterized Constructor (Parametreli Constructor).
+
         this.country = country;
     }
-    ConstructorOverloading(){ //NoArgsConstructor
+    ConstructorOverloading(){ //NoArgsConstructor (paremetresiz Constructor)
     }
 
     public static void main(String[] args) {
@@ -29,7 +29,8 @@ public class ConstructorOverloading {
         System.out.println(obj1.country+" "+obj1.language);
         /*
             1.'de NoArgsConstructor kullandık. İki field'ın değerini de
-            nesneyi oluşturduktan sonra, ayrı ayrı atadık. Nesneyi oluştururken içini doldurmadık.
+            nesneyi oluşturduktan sonra, ayrı ayrı atadık.
+             Nesneyi oluştururken içini doldurmadık.
         */
 
         ConstructorOverloading obj2 = new ConstructorOverloading("Germany");
@@ -44,8 +45,9 @@ public class ConstructorOverloading {
         ConstructorOverloading obj3 = new ConstructorOverloading("England","English");
         System.out.println(obj3.country+" "+obj3.language);
         /*
-            3.'de bütün fieldları Parameterized Constructor ile aldık. Dolayısıyla dışarıdan değer
-            ataması yapmama gerek kalmadı. Nesneyi oluştururken içini de doldurdum. AllArgsConstructor.
+            3.'de bütün fieldları Parameterized Constructor ile aldık.
+            Dolayısıyla dışarıdan değer ataması yapmama gerek kalmadı.
+            Nesneyi oluştururken içini de doldurdum. AllArgsConstructor.
          */
     }
 }

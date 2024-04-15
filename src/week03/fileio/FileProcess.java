@@ -3,8 +3,9 @@ package week03.fileio;
 import java.io.File;
 import java.io.IOException;
 
-public class FileProcess {
+public class FileProcess { //dosya işlemleri
     public static void main(String[] args) throws IOException {
+
         File directory =new File("myDir");
         boolean bool = directory.mkdir(); //klasör oluşturdu
         System.out.println(bool); //varsa false,yoksa oluşturur true

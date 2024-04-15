@@ -5,13 +5,14 @@ public class Person {
 
     String nickname;
     String name;
-    String gender;
+    String gender; //cinsiyet
 
-    public  void sleep(){ //method
+    public  void sleep(){ //method ,sleep(uyumak)
         System.out.println(name + "is sleeping");
     }
 
-    public void walk(){
-       System.out.println(name + "is walking");
+    public void walk(){ //walk(yürümek)
+
+        System.out.println(name + "is walking");
     }
 }

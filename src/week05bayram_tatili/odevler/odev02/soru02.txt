@@ -1,0 +1,3 @@
+Dışarıdan girilen ülke ismi bizim array’imizde bulunuyor mu? Kontrol edelim.
+Array; { "Türkiye", "Japonya", "Moğolistan", "Amerika", "Rusya", "Çin" };
+Bulunup bulunmama durumuna göre çıktı verelim.

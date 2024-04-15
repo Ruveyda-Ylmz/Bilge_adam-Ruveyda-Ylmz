@@ -1,0 +1,2 @@
+int[] sayilar = { 120, 130, 125, -256, 16, 1300, 1258, 81, 14 };
+Dizideki en büyük 2. Sayıyı bulup yazdıralım.
