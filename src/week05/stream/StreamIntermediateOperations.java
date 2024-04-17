@@ -61,9 +61,49 @@ public class StreamIntermediateOperations {
                 .collect(Collectors.toList());
         System.out.println(evenNumberList);
 
+        //flatMap()
+        System.out.println(" \n flatMap()\n");
+        List<List<Integer>> nestedList = Arrays.asList(
+                Arrays.asList(1,2,3),
+                Arrays.asList(4,5,6),
+                Arrays.asList(7,8,9)
+        );
+
+        List<Integer> flattenedList = nestedList.stream()
+                .flatMap(List::stream) //dizileri birleştirir
+                .collect(Collectors.toList());
+
+        System.out.println(nestedList); //[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+        System.out.println(flattenedList); //[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+        List<Stream<Integer>> streamsNestedList = nestedList.stream()
+                .map(i -> i.stream().map(j -> j*2))
+                .collect(Collectors.toList());
+        System.out.println(streamsNestedList);
+
+        List<List<Integer>> mappedNestedList = nestedList.stream()
+                .map(i ->i.stream()
+                        .map(j ->j*2)
+                        .collect(Collectors.toList()))
+            .collect(Collectors.toList());
+        System.out.println(mappedNestedList);
+
+        List<Integer> mappedFlatenedList = flattenedList.stream()
+                .map(i -> i*2)
+                .collect(Collectors.toList());
+        System.out.println(mappedFlatenedList);
+
+        List<Integer> flattenedMappedList = nestedList.stream()
+                .flatMap(List::stream)
+                .map(i -> i*2).collect(Collectors.toList());
+        System.out.println(flattenedMappedList);
+
+
         //sorted() -> doğal sıralmaya göre sıralar . comparable interface inden implement edilen öğeleri
         //barındırdığğı sürece efektif bir şekilde çalışır.
         //Stream<T> sorted (Comparantor<? super T)comparator);
+        System.out.println("\n sorted \n");
         Stream<String > s1 = Stream.of("brown","bear-","bee");
         s1.sorted().forEach(System.out::println);
         //no! sorted() methodu kullandığımızda "java.lang.OutOfMemoryError:Java heap space sonucu elde ederiz.
