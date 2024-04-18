@@ -2,12 +2,16 @@
 
 soru1:
 
-1-Students sınıfı oluşturalım
+1-Students sınıfı oluşturalım +
  fieldler:
    name,surname,grade
-2-encapsülation olucak
+
+2-encapsülation olucak +
   main sınıfında girilen sayı kadar sutudents nesnesi üreten metot yazalım.
   grade kısmı 0-100 arasında rasgele değer alsın
+
 3-daha sonra öğrencilerin not ortalamsını hesaplayıp dönen bir stream yazalım.
+
 4-notu 50 den düşük olan öğrencileri liste olarak dönen bir stream
-5-öğrencilerin isimleri ve öğrencilerin notlarını notlarını yazdıran stream.
+
+5-öğrencilerin isimleri ve öğrencilerin notlarını  yazdıran stream. +

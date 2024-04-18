@@ -92,6 +92,7 @@ public class StreamIntermediateOperations {
         List<Integer> mappedFlatenedList = flattenedList.stream()
                 .map(i -> i*2)
                 .collect(Collectors.toList());
+        System.out.println("mappedFlatenedList");
         System.out.println(mappedFlatenedList);
 
         List<Integer> flattenedMappedList = nestedList.stream()

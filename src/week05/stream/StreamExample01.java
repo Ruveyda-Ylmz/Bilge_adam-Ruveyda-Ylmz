@@ -23,6 +23,7 @@ public class StreamExample01 {
         Stream<Double> randoms = Stream.generate(Math::random).limit(5);
         Stream<Integer> oddNumber = Stream.iterate(1, n -> n+2).limit(5);
         randoms.forEach(System.out::println);
+        System.out.println("ODDDDDD");
         oddNumber.forEach(System.out::println);
 
         //stream pipeline flow.
