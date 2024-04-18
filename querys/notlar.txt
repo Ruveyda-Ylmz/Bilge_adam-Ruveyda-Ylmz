@@ -13,11 +13,11 @@ sorgu açma:
 
 tablo açma:
 postgres -> scheams -> Tables
- oluşturduğun tabloyu açma :(yöntem1) Tables -> oluşturduğun tablo ismine sağ tıkla + viewledit + AllRows + enter
+ oluşturduğun tabloyu açma :(yöntem 1) Tables -> oluşturduğun tablo ismine sağ tıkla + view/edit + AllRows + enter
                             (yöntem 2) oluşturulan tablo üstüne tıkla, üstte Object explorer şeridinde (AllRows) butonuna tıkla
 
-toblo içi veri işlemleri query:
+tablo içi veri işlemleri query:
 Tables paketine sağ tık + Query Tool
 
-toblo görüntüleme:
+tablo görüntüleme:
 oluşturulan tablo ismi sağ tıkla Query Tool içine (SELECT * FROM cars;) ile çağrılır
