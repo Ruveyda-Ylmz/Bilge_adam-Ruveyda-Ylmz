@@ -1,0 +1,23 @@
+VERİ TABANI NOTLARI:
+
+ek not:
+-anahtar kısımlar büyük harfle yazılması önerilir.
+-tablo isimleri 's' tagı ile kullanılır.(cars)
+  tbl_.. ile de yazılabilir(tbl_car)
+ -sorgu sonu ; ile biter
+ -VARCHAR burada String demektir.
+
+
+sorgu açma:
+1-Tools -> queryTool +enter
+
+tablo açma:
+postgres -> scheams -> Tables
+ oluşturduğun tabloyu açma :(yöntem1) Tables -> oluşturduğun tablo ismine sağ tıkla + viewledit + AllRows + enter
+                            (yöntem 2) oluşturulan tablo üstüne tıkla, üstte Object explorer şeridinde (AllRows) butonuna tıkla
+
+toblo içi veri işlemleri query:
+Tables paketine sağ tık + Query Tool
+
+toblo görüntüleme:
+oluşturulan tablo ismi sağ tıkla Query Tool içine (SELECT * FROM cars;) ile çağrılır
