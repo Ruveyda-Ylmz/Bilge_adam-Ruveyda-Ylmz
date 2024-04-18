@@ -5,11 +5,11 @@ ek not:
 -tablo isimleri 's' tagı ile kullanılır.(cars)
   tbl_.. ile de yazılabilir(tbl_car)
  -sorgu sonu ; ile biter
- -VARCHAR burada String demektir.
+ -VARCHAR(255) burada String demektir.
 
 
 sorgu açma:
-1-Tools -> queryTool +enter
+1-Tools -> queryTool + enter
 
 tablo açma:
 postgres -> scheams -> Tables
@@ -21,3 +21,5 @@ Tables paketine sağ tık + Query Tool
 
 tablo görüntüleme:
 oluşturulan tablo ismi sağ tıkla Query Tool içine (SELECT * FROM cars;) ile çağrılır
+
+update -> değiştirmek

@@ -12,7 +12,7 @@ DROP color;
 
 --tabloda kolon ismi değiştirme
 ALTER TABLE	cars
-RENAME COLUMN color TO colorr;
+RENAME COLUMN breand TO brand;
 
 --colon veri tipini değiştirme
 ALTER TABLE cars
