@@ -77,7 +77,28 @@ OR model ='Enzo'; --markası 'Nisan' ve modeli 'Enzo' olan kayıtları  döndür
 -- IN operatörü, bir sütunun değeri listedeki değerlerden herhangi 
 -- biriyle/birileriyle eşleştiğinde kullanılır. Bir liste verileceği zaman çok kullanışlıdır.
 SELECT * FROM cars 
-WHERE brand IN ('Nissan',('Aston Martin'),'Ford');
+WHERE brand IN ('Nissan','Aston Martin','Ford');
+
+--Between matematiksel karşılaştırmada kullanılır.
+SELECT * FROM cars 
+WHERE year BETWEEN 1950 AND 2000; --Yılı 1950 yılı ile 2000 arasında ki bütün verileri getrir.
+
+SELECT * FROM cars
+WHERE model IS NULL;--modeli null olan verileri getir demek.
+
+SELECT * FROM cars
+WHERE brand NOT LIKE 'F%'; --F ile başlamayan kayıtları döndürür. ->ILIKE case sentivite değil(büyük-küçük harf duyarsız.)
+
+SELECT * FROM cars
+WHERE brand NOT LIKE 'f%'; --f ile başlamayan kayıtları döndürür. ->ILIKE case sentivite değil(büyük-küçük harf duyarsız.)
 
 
+SELECT * FROM cars
+WHERE brand NOT IN ('Cobra','Ford','Ferrai');--markanın bu listede olmadığı bütün değerleri döndürür
 
+
+SELECT * FROM cars 
+WHERE year NOT BETWEEN 1950 AND 2000; --Yılı 1950 yılı ile 2000 arasında OLAMYAN ki bütün verileri getrir.
+
+SELECT * FROM cars 
+WHERE model IS NOT NULL; --model NULL olmayan bütün değerleri getirir.
