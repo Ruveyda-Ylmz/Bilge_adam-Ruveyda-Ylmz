@@ -104,8 +104,8 @@ public class Islemler {
 
         yeni_met.entrySet()
                 .forEach(entrt -> System.out.println(
-                        "ogr_ad :" + entrt.getKey()+
-                        "ogr_not"+"\n" +entrt.getValue()+"\n"
+                        "ogr_ad :" + entrt.getKey()+ "\n"+
+                        "ogr_not :"+ entrt.getValue()+"\n"
                 ));
     }
 
