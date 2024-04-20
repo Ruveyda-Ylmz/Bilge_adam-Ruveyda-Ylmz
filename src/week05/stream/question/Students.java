@@ -1,10 +1,5 @@
 package week05.stream.question;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
 public class Students {
 
     private String name;
@@ -12,7 +7,6 @@ public class Students {
     private  String surname;
 
     private int grade; //not
-
 
     public String getName() {
         return name;
