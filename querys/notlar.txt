@@ -23,3 +23,5 @@ tablo görüntüleme:
 oluşturulan tablo ismi sağ tıkla Query Tool içine (SELECT * FROM cars;) ile çağrılır
 
 update -> değiştirmek
+update -> değiştirmek
+update -> değiştirmek

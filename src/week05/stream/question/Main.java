@@ -104,6 +104,9 @@ public class Main {
         for (Students students : studentsList){
             System.out.println( "adı : " + students.getName() + "\n" +
                                 "puan : " +  students.getGrade()   + "\n");
+
+
+
         }
     }
 
