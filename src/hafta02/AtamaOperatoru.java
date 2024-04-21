@@ -29,5 +29,17 @@ public class AtamaOperatoru {
 
         System.out.println(myWeb);
 
+        //Narrowing Casting (büyükten küçüğe dönüşüm)
+        double Double = 9.78d;
+        int myInt = (int) Double;
+        System.out.println(Double);
+        System.out.println(myInt);
+
+        //Widenin Casting (küçükten büyüğe dönüşüm)
+        int intNumber = 9;
+        double double_Number = intNumber;
+        System.out.println(intNumber);
+        System.out.println(double_Number);
+
     }
 }
