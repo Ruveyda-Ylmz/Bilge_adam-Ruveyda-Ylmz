@@ -23,22 +23,3 @@ tablo görüntüleme:
 oluşturulan tablo ismi sağ tıkla Query Tool içine (SELECT * FROM cars;) ile çağrılır
 
 update -> değiştirmek
-
-----------------------
-
-=
-<
->
-<=
->=
-!=
-LIKE
-ILIKE
-AND
-OR
-IN
-BETWEEN
-IS NULL
-NOT (NOT LIKE,NOT IN,NOT BETWEEN)
-
----------------------------
